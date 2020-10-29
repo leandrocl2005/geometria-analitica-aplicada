@@ -36,7 +36,7 @@ Veremos como fazer gráficos de linhas e dispersão, bem como estilização dos 
 Como atividade prática, faremos um gráfico de linha que apresenta o número de óbitos por COVID-19 de determinado município. Faremos conclusões sobre o comportamento do gráfico.
 
 <h1 align="center">
-  <img alt="covid-19-uberlandia" title="Covid-19 em Uberlândia" src="./001-pontos-no-plano-cartesiano-markdown/output_21_0.png" />
+  <img alt="covid-19-uberlandia" title="Covid-19 em Uberlândia" src="./assets/covid-uberlandia.png" />
 </h1>
 
 Acesse: https://github.com/leandrocl2005/geometria-analitica-aplicada/blob/main/001-pontos-no-plano-cartesiano.ipynb
@@ -51,7 +51,7 @@ Veremos como representar círculos com centro e raio qualquer num gráfico.
 Como atividade prática, faremos um gráfico com comprimentos e larguras de pétalas da espécie Iris. Separaremos por cor tais espécies e a partir da equação de distância criaremos um círculo em volta dos pontos que representam a Iris Setosa. Concluiremos que é possível criar modelos simples com uso da equação do círculo.
 
 <h1 align="center">
-  <img alt="Iris setosa" title="Iris setosa" src="./002-distancias-e-circulos-markdown/output_22_0.png" />
+  <img alt="Iris setosa" title="Iris setosa" src="./assets/iris.png" />
 </h1>
 
 Acesse: https://github.com/leandrocl2005/geometria-analitica-aplicada/blob/main/002-distancias-e-circulos.ipynb
