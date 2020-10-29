@@ -18,7 +18,7 @@ plt.show()
 
 
     
-![svg](output_3_0.svg)
+![png](output_3_0.png)
     
 
 
@@ -36,7 +36,7 @@ plt.show()
 
 
     
-![svg](output_4_0.svg)
+![png](output_4_0.png)
     
 
 
@@ -69,7 +69,7 @@ plt.show()
 
 
     
-![svg](output_6_0.svg)
+![png](output_6_0.png)
     
 
 
@@ -103,7 +103,7 @@ plt.show()
 
 
     
-![svg](output_7_0.svg)
+![png](output_7_0.png)
     
 
 
@@ -120,7 +120,7 @@ plt.show()
 
 
     
-![svg](output_9_0.svg)
+![png](output_9_0.png)
     
 
 
@@ -160,7 +160,7 @@ plt.show()
 
 
     
-![svg](output_11_0.svg)
+![png](output_11_0.png)
     
 
 
@@ -205,7 +205,7 @@ plt.show()
 
 
     
-![svg](output_12_0.svg)
+![png](output_12_0.png)
     
 
 
@@ -272,7 +272,7 @@ plt.show()
 
 
     
-![svg](output_13_0.svg)
+![png](output_13_0.png)
     
 
 
@@ -347,8 +347,17 @@ def indexToBrDate(indexDate):
 
 
 ```python
+import numpy as np
+
 x_coordinates = list(range(df.shape[0]))
 y_coordinates = df['CONT'].values
+
+media_acumulada_2_semanas = []
+for i in range(len(y_coordinates)):
+    if i >= 14:
+        media_acumulada_2_semanas.append(np.mean(y_coordinates[i-14:i]))
+        
+media_acumulada_2_semanas = 14 * [0] + media_acumulada_2_semanas
 
 fig = plt.figure(figsize=(12,6))
 ax = fig.add_axes([0,0,1,1])
@@ -372,6 +381,14 @@ ax.plot(
     **marker_styles_y,
 )
 
+ax.plot(
+    x_coordinates, 
+    media_acumulada_2_semanas,
+    linestyle="-",
+    linewidth = 3,
+    color = 'r',
+)
+
 xticks = list(range(0, df.shape[0], 10)) + [209]
 ax.set_xticks(xticks)
 ax.set_xticklabels(list(map(indexToBrDate, xticks)),  rotation=80)
@@ -380,19 +397,16 @@ ax.set_xlabel("Dia da confirmação do óbito", fontsize=12)
 ax.set_ylabel("Número de óbitos no dia", fontsize=12)
 ax.set_title("Óbitos por dia em Uberlândia-MG", fontsize=16, fontweight="bold")
 
+ax.legend(labels = ('Nº de óbitos', 'Média acumulada (2 semanas)'), loc = 'upper left')
+
 plt.show()
 ```
 
 
     
-![svg](output_21_0.svg)
+![png](output_21_0.png)
     
 
-
-
-```python
-
-```
 
 
 ```python

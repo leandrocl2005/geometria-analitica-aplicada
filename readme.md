@@ -23,7 +23,7 @@ O setup aqui apresentado considera o uso do Anaconda Python 3.8, Visual Code Stu
   > jupyter-notebook
 - Na próxima vez, basta iniciar diretamente o jupyter notebook:
   > jupyter-notebook
-- Para para o jupyter notebook: `Ctrl+C` no prompt
+- Para parar o jupyter notebook: `Ctrl+C` no prompt
 - Para desativar o ambiente virtual:
   > conda deactivate
 
@@ -34,6 +34,12 @@ Neste capítulos representaremos pontos no plano cartesiano utilizando a bibliot
 Veremos como fazer gráficos de linhas e dispersão, bem como estilização dos mesmos.
 
 Como atividade prática, faremos um gráfico de linha que apresenta o número de óbitos por COVID-19 de determinado município. Faremos conclusões sobre o comportamento do gráfico.
+
+<h1 align="center">
+  <img alt="covid-19-uberlandia" title="Covid-19 em Uberlândia" src="./assets/covid-19-uberlandia.png" />
+</h1>
+
+Acesse: https://github.com/leandrocl2005/geometria-analitica-aplicada/blob/main/001-pontos-no-plano-cartesiano-markdown/001-pontos-no-plano-cartesiano.md
 
 
 ## Referências
