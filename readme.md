@@ -29,19 +29,35 @@ O setup aqui apresentado considera o uso do Anaconda Python 3.8, Visual Code Stu
 
 ## Capítulo 1: pontos no plano cartesiano
 
-Neste capítulos representaremos pontos no plano cartesiano utilizando a biblioteca `matplotlib`.
+Neste capítulo representaremos pontos no plano cartesiano utilizando a biblioteca `matplotlib`.
 
 Veremos como fazer gráficos de linhas e dispersão, bem como estilização dos mesmos.
 
 Como atividade prática, faremos um gráfico de linha que apresenta o número de óbitos por COVID-19 de determinado município. Faremos conclusões sobre o comportamento do gráfico.
 
 <h1 align="center">
-  <img alt="covid-19-uberlandia" title="Covid-19 em Uberlândia" src="./assets/covid-19-uberlandia.png" />
+  <img alt="covid-19-uberlandia" title="Covid-19 em Uberlândia" src="./001-pontos-no-plano-cartesiano-markdown/output_21_0.png" />
 </h1>
 
 Acesse: https://github.com/leandrocl2005/geometria-analitica-aplicada/blob/main/001-pontos-no-plano-cartesiano-markdown/001-pontos-no-plano-cartesiano.md
 
 
+## Capítulo 2: Distâncias e círculos
+
+Neste capítulo trabalharemos funções que calculam distâncias euclideanas entre pontos do plano cartesiano. Também representaremos pontos de um círculo no plano cartesiano utilizando a biblioteca `matplotlib`.
+
+Veremos como representar círculos com centro e raio qualquer num gráfico.
+
+Como atividade prática, faremos um gráfico com comprimentos e larguras de pétalas da espécie Iris. Separaremos por cor tais espécies e a partir da equação de distância criaremos um círculo em volta dos pontos que representam a Iris Setosa. Concluiremos que é possível criar modelos simples com uso da equação do círculo.
+
+<h1 align="center">
+  <img alt="Iris setosa" title="Iris setosa" src="./002-distancias-e-circulos-markdown/output_22_0.png" />
+</h1>
+
+Acesse: https://github.com/leandrocl2005/geometria-analitica-aplicada/blob/main/002-distancias-e-circulos-markdown/002-distancias-e-circulos.md
+
+
 ## Referências
 
 - https://opendatasus.saude.gov.br/
+- https://archive.ics.uci.edu/ml/datasets/iris
