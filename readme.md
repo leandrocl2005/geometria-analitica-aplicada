@@ -56,8 +56,21 @@ Como atividade prática, faremos um gráfico com comprimentos e larguras de pét
 
 Acesse: https://github.com/leandrocl2005/geometria-analitica-aplicada/blob/main/002-distancias-e-circulos.ipynb
 
+## Capítulo 3: Vetores, soma e multiplicação por escalar
+
+Neste capítulo trabalharemos as interpretações geométricas das operações de soma e multiplicação por escalar.
+
+Como atividade prática, utilizaremos estas operações em dois tipos de normalização de dados. Faremos alguns experimentos vericando as propriedades desses processos.
+
+<h1 align="center">
+  <img alt="Soma de vetores" title="Soma de vetores" src="./assets/soma.png" />
+</h1>
+
+Acesse: https://github.com/leandrocl2005/geometria-analitica-aplicada/blob/main/003-soma-multiplicacao-por-escalar.ipynb
+
 
 ## Referências
 
 - https://opendatasus.saude.gov.br/
 - https://archive.ics.uci.edu/ml/datasets/iris
+- https://archive.ics.uci.edu/ml/machine-learning-databases/housing/
