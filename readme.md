@@ -39,7 +39,7 @@ Como atividade prática, faremos um gráfico de linha que apresenta o número de
   <img alt="covid-19-uberlandia" title="Covid-19 em Uberlândia" src="./001-pontos-no-plano-cartesiano-markdown/output_21_0.png" />
 </h1>
 
-Acesse: https://github.com/leandrocl2005/geometria-analitica-aplicada/blob/main/001-pontos-no-plano-cartesiano-markdown/001-pontos-no-plano-cartesiano.md
+Acesse: https://github.com/leandrocl2005/geometria-analitica-aplicada/blob/main/001-pontos-no-plano-cartesiano.ipynb
 
 
 ## Capítulo 2: Distâncias e círculos
@@ -54,7 +54,7 @@ Como atividade prática, faremos um gráfico com comprimentos e larguras de pét
   <img alt="Iris setosa" title="Iris setosa" src="./002-distancias-e-circulos-markdown/output_22_0.png" />
 </h1>
 
-Acesse: https://github.com/leandrocl2005/geometria-analitica-aplicada/blob/main/002-distancias-e-circulos-markdown/002-distancias-e-circulos.md
+Acesse: https://github.com/leandrocl2005/geometria-analitica-aplicada/blob/main/002-distancias-e-circulos.ipynb
 
 
 ## Referências
