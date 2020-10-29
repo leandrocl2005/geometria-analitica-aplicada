@@ -66,7 +66,7 @@ Como atividade prática, utilizaremos estas operações em dois tipos de normali
   <img alt="Soma de vetores" title="Soma de vetores" src="./assets/soma.png" />
 </h1>
 
-Acesse: https://github.com/leandrocl2005/geometria-analitica-aplicada/blob/main/003-soma-multiplicacao-por-escalar.ipynb
+Acesse: https://github.com/leandrocl2005/geometria-analitica-aplicada/blob/main/003-vetores-soma-multiplicacao-por-escalar.ipynb
 
 
 ## Referências
