@@ -245,14 +245,13 @@ Por fim obtemos um modelo que, para este conjunto, contempla todos os casos de d
 
 Dados $x$ o comprimento de uma pétala em centímetros de uma planta $Z$ da espécie Iris e $y$ a largura de uma pétala em centímetros de $Z$. Então, a função que distingue $Z$ entre Setosa ou Outra é a seguinte:
 
-$$
+![formula](https://render.githubusercontent.com/render/math?math=
 f(Z) = f(x, y) = \left\{
     \begin{array}{c}
         \text{Setosa,} & \text{se }d(\left(\frac{3}{2},\frac{1}{2}\right), Z) \leq 1, \\
         \text{Outra,}  & \text{se } d(\left(\frac{3}{2},\frac{1}{2}\right), Z) > 1, \\
     \end{array}
-\right.
-$$
+\right.)
 
 Conhecer outros elementos geométricos é essencial para delimitar regiões mais complexas e assim determinar modelos melhores.
 
