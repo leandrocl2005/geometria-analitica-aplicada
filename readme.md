@@ -9,23 +9,23 @@ Para tal, utilizaremos a linguagem de programação Python.
 O setup aqui apresentado considera o uso do Anaconda Python 3.8, Visual Code Studio e sistema operacional Windows 10.
 
 - No prompt de comando:
-  > conda create --name py38geometria python=3.8
-  > conda activate py38geometria
-  > pip install jupyterlab
-  > pip install pandas
-  > pip install matplotlib
-  > pip install seaborn
-  > pip install sklearn
-  > pip install scikit-learn
-  > jupyter-notebook
+  - > conda create --name py38geometria python=3.8
+  - > conda activate py38geometria
+  - > pip install jupyterlab
+  - > pip install pandas
+  - > pip install matplotlib
+  - > pip install seaborn
+  - > pip install sklearn
+  - > pip install scikit-learn
+  - > jupyter-notebook
 - Se encontrar o seguinte erro: `failed while importing win32api`
-  > pip install --upgrade pywin32==225
-  > jupyter-notebook
+  - > pip install --upgrade pywin32==225
+  - > jupyter-notebook
 - Na próxima vez, basta iniciar diretamente o jupyter notebook:
-  > jupyter-notebook
+  - > jupyter-notebook
 - Para parar o jupyter notebook: `Ctrl+C` no prompt
 - Para desativar o ambiente virtual:
-  > conda deactivate
+  - > conda deactivate
 
 ## Capítulo 1: pontos no plano cartesiano
 
@@ -67,6 +67,18 @@ Como atividade prática, utilizaremos estas operações em dois tipos de normali
 </h1>
 
 Acesse: https://github.com/leandrocl2005/geometria-analitica-aplicada/blob/main/003-vetores-soma-multiplicacao-por-escalar.ipynb
+
+## Capítulo 4: Vetores e produto interno
+
+Neste capítulo estudaremos produto escalar e norma.
+
+Como atividade prática, utilizaremos produto escalar para computar o coeficiente de correlação amostral entre duas variáveis. 
+
+<h1 align="center">
+  <img alt="Correlação amostral" title="Correlação amostral" src="./assets/correlation.png" />
+</h1>
+
+Acesse: https://github.com/leandrocl2005/geometria-analitica-aplicada/blob/main/004-vetores-produto-interno.ipynb
 
 
 ## Referências
