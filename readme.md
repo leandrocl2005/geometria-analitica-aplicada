@@ -80,6 +80,18 @@ Como atividade prática, utilizaremos produto escalar para computar o coeficient
 
 Acesse: https://github.com/leandrocl2005/geometria-analitica-aplicada/blob/main/004-vetores-produto-interno.ipynb
 
+## Capítulo 5: Vetores e produto vetorial
+
+Neste capítulo estudaremos produto vetorial.
+
+Como atividade prática, utilizaremos produto vetorial para estimar a área do palácio da Alvorada, residência do presidente do Brasil. 
+
+<h1 align="center">
+  <img alt="Palácio da Alvorada" title="Palácio da Alvorada" src="./assets/area.png" />
+</h1>
+
+Acesse: https://github.com/leandrocl2005/geometria-analitica-aplicada/blob/main/005-vetores-produto-vetorial.ipynb
+
 
 ## Referências
 
