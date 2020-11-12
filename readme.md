@@ -92,6 +92,18 @@ Como atividade prática, utilizaremos produto vetorial para estimar a área do p
 
 Acesse: https://github.com/leandrocl2005/geometria-analitica-aplicada/blob/main/005-vetores-produto-vetorial.ipynb
 
+## Capítulo 6: Retas no plano cartesiano
+
+Neste capítulo estudaremos retas no plano cartesiano.
+
+Como atividade prática, utilizaremos retas para regressão linear e também para classificação de regiões.
+
+<h1 align="center">
+  <img alt="Regressão e classificação usando retas" title="Regressão e classificação usando retas" src="./assets/retas.png" />
+</h1>
+
+Acesse: https://github.com/leandrocl2005/geometria-analitica-aplicada/blob/main/006-retas.ipynb
+
 
 ## Referências
 
