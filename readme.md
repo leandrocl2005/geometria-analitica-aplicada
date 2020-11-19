@@ -104,6 +104,19 @@ Como atividade prática, utilizaremos retas para regressão linear e também par
 
 Acesse: https://github.com/leandrocl2005/geometria-analitica-aplicada/blob/main/006-retas.ipynb
 
+## Capítulo 7: Elipses
+
+Neste capítulo estudaremos elipses no plano cartesiano.
+
+Como atividade prática, utilizaremos elipses para criar artes abstratas.
+
+<h1 align="center">
+  <img alt="Arte com elipses" title="Arte com elipses" src="./assets/elipses.png" />
+</h1>
+
+Acesse: https://github.com/leandrocl2005/geometria-analitica-aplicada/blob/main/007-elipses.ipynb
+
+
 
 ## Referências
 
